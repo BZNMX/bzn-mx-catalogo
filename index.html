@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>BZN MX | Streetwear Urbano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="hero">
+       <div class="logo-container"> <withe color>
+    <h1 class="logo-text"<withe color>BZN MX</h1>
+</div>
+        <p>Streetwear Urbano | Colección Temporada 2025</p>
+
+        <nav class="navbar">
+            <a href="#">Inicio</a>
+            <a href="#catalogo">Colección</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN DESTACADO -->
+    <section class="destacado">
+        <h2>TIME FRESH</h2>
+        <p>Ediciones limitadas, diseños únicos y estilo urbano.</p>
+    </section>
+
+    <!-- CATÁLOGO DE PRODUCTOS -->
+    <main id="catalogo" class="catalogo">
+
+        <!-- Producto con múltiples imágenes -->
+<div class="producto hoddie">
+    <div class="producto">
+        <img src="images/hoddie-frontal.jpg" alt="Hoddie Frente" class="imagen-activa"> 
+        <img src="images/hoddie-trasera.jpg" alt="Hoddie Trasera">
+        <img src="images/hoddie-detalle.jpg" alt="Detalle Hoddie">
+    </div>
+    <h2>Hoddie Oversize Negro "REVENGUE"</h2>
+    <p>Sudadera con capucha estilo urbano, tejido grueso y detalles especiales.</p>
+    <span class="precio">$699.00 c/u</span>
+        <a href="https://wa.me/573101234567?text=Hola,%20me%20interesa%20el%20Hoddie%20Negro%20REVENGUE" 
+   target="_blank" class="btn-whatsapp-producto">💬 Comprar</a>
+<button onclick="agregarAlCarrito('Hoddie Oversize Negro REVENGUE', '$789.00')">🛒 Agregar al carrito</button>
+    </div>
+
+
+<!-- Producto con múltiples imágenes -->
+<div class="producto hoddie">
+    <div class="producto">
+        <img src="images/bzn-frontal.jpg" alt="Hoddie Frente" class="imagen-activa"> 
+        <img src="images/bzn-trasera.jpg" alt="Hoddie Trasera">
+        <img src="images/bzn-desing.jpg" alt="Detalle Hoddie">
+    </div>
+    <h2>Hoddie Oversize Negro "BZN DESING"</h2>
+    <p>Sudadera con capucha estilo urbano, tejido grueso y detalles únicos.</p>
+    <span class="precio">$699.00 c/u</span>
+<a href="https://wa.me/573101234567?text=Hola,%20me%20interesa%20el%20Hoddie%20Negro%20REVENGUE" 
+   target="_blank" class="btn-whatsapp-producto">💬 Comprar</a>
+<button onclick="agregarAlCarrito('Hoddie Oversize Negro BZN DESING', '$789.00')">🛒 Agregar al carrito</button>
+</div>
+
+
+<!-- Producto con múltiples imágenes -->
+<div class="producto hoddie">
+    <div class="producto">
+        <img src="images/pans-nike-frontal.jpg" alt="Pans Nike Frente" class="imagen-activa"> 
+        <img src="images/pans-nike-lado.jpg" alt="Pans Lado">
+    </div>
+    <h2>Pans Negro "NIKE DESING"</h2>
+    <p>Pans 100% Algodón, tejido grueso pero muy transpirable. Con logo NIKE bordado. Perfecto para cualquier tipo de ocasión.</p>
+    <span class="precio">$399.00 c/u</span>
+<a href="https://wa.me/573101234567?text=Hola,%20me%20interesa%20el%20Hoddie%20Negro%20REVENGUE" 
+   target="_blank" class="btn-whatsapp-producto">💬 Comprar</a>
+<button onclick="agregarAlCarrito('Pans Nike Bordado', '$399.00')">🛒 Agregar al carrito</button>
+</div>
+
+
+
+        <!-- Producto Ejemplo 2 -->
+        <div class="producto">
+            <img src="images/producto2.jpg" alt="Producto 2">
+            <h2>Pantalón Jogger Gris</h2>
+            <p>Corte ajustado, tela resistente y cómoda. Ideal para uso diario.</p>
+            <span class="precio">$650.00 c/u</span>
+        </div>
+
+        <!-- Producto Ejemplo 3 -->
+        <div class="producto">
+            <img src="images/producto3.jpg" alt="Producto 3">
+            <h2>Gorra BZN Reflectante</h2>
+            <p>Diseño moderno, visera curva y logo bordado reflectante.</p>
+            <span class="precio">$250.00 c/u</span>
+        </div>
+
+    </main>
+
+    <!-- FILTRO POR CATEGORÍA -->
+<section class="filtro-categorias">
+    <h3>Filtrar por:</h3>
+    <button onclick="filterProducts('all')">Todas</button>
+    <button onclick="filterProducts('hoddie')">Hoddies</button>
+    <button onclick="filterProducts('pans')">Pans</button>
+    <button onclick="filterProducts('playeras oversize')">Playeras Oversize</button>
+</section>
+
+<!-- CATÁLOGO DE PRODUCTOS -->
+<main id="catalogo" class="catalogo">
+
+    <!-- Producto Ejemplo 1 -->
+    <div class="producto hoddie">
+        <div class="producto-imagenes">
+            <img src="images/hoddie-frontal.jpg" alt="Hoddie Frente" class="imagen-activa">
+            <img src="images/hoddie-trasera.jpg" alt="Hoddie Trasera">
+            <img src="images/hoddie-detalle.jpg" alt="Detalle Hoddie">
+        </div>
+        <h2>Hoddie Oversize Negro</h2>
+        <p>Sudadera con capucha estilo urbano, tejido grueso y detalles reflectantes.</p>
+        <span class="precio">$789.00 c/u</span>
+    </div>
+
+
+</main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2025 BZN MX. Todos los derechos reservados.</p>
+        <a href="#" onclick="toggleContactModal()">Contáctanos</a>Políticas de privacidad</a> | <a href="#catalogo">Colección</a></p>
+    </footer>
+
+    <!-- BOTÓN FIJO DE WHATSAPP -->
+    <a href="https://wa.me/9221458012"  target="_blank" class="whatsapp-btn">💬 WhatsApp</a>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+
+
+<!-- MODAL DE CONTACTO -->
+<div id="contact-modal" class="contact-modal">
+    <div class="modal-content">
+        <span onclick="toggleContactModal()" class="close">&times;</span>
+        <h2>¿Necesitas ayuda?</h2>
+        <p>Envíanos un mensaje directo por:</p>
+        <div class="contact-options">
+            <a href="https://wa.me/9221458012"  target="_blank" class="btn-whatsapp">💬 WhatsApp</a>
+            <a href="mailto:jastyleclothes@gmail.com" class="btn-email">📧 Correo</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- BOTONES FLOTANTES DE REDES SOCIALES -->
+<div class="redes-sociales">
+    <a href="https://wa.me/573101234567"  target="_blank" class="btn-social whatsapp" title="WhatsApp">💬</a>
+    <a href="https://www.instagram.com/bznmx"  target="_blank" class="btn-social instagram" title="Instagram">📸</a>
+    <a href="https://www.facebook.com/bznmx"  target="_blank" class="btn-social facebook" title="Facebook">📘</a>
+    <a href="https://www.tiktok.com/@bznmx"  target="_blank" class="btn-social tiktok" title="TikTok">🎵</a>
+</div>
+
+</body>
+</html>
+
+
+<!-- BOTÓN QUIÉNES SOMOS -->
+<button onclick="abrirModalQuienes()" class="btn-quienes">QUIÉNES SOMOS</button>
+
+<!-- MODAL DE QUIÉNES SOMOS -->
+<div id="modal-quienes" class="modal">
+    <div class="modal-contenido">
+        <span onclick="cerrarModalQuienes()" class="modal-cerrar">&times;</span>
+        <h2>¿Quiénes somos?</h2>
+        <p>Aquí va tu texto oficial de "Quiénes Somos". Puedes escribir sobre los fundadores, filosofía, visión, etc.</p>
+        <p>Este espacio será rellenado con tu contenido final.</p>
+    </div>
+</div>
+
+
+<!-- BOTONES FLOTANTES DE REDES SOCIALES -->
+<div class="redes-sociales">
+    <a href="https://wa.me/573101234567"  target="_blank" class="btn-social whatsapp" title="WhatsApp">
+        <img src="images/whatsapp.png" alt="WhatsApp" class="icono-red">
+    </a>
+    <a href="https://www.instagram.com/bznmx"  target="_blank" class="btn-social instagram" title="Instagram">
+        <img src="images/instagram.png" alt="Instagram" class="icono-red">
+    </a>
+    <a href="https://www.facebook.com/bznmx"  target="_blank" class="btn-social facebook" title="Facebook">
+        <img src="images/facebook.png" alt="Facebook" class="icono-red">
+    </a>
+    <a href="https://www.tiktok.com/@bznmx"  target="_blank" class="btn-social tiktok" title="TikTok">
+        <img src="images/tiktok.png" alt="TikTok" class="icono-red">
+    </a>
+</div>
+
+
+<!-- CARRO DE COMPRAS -->
+<div id="carrito" class="carrito">
+    <h3>Tu carrito</h3>
+    <ul id="lista-carrito"></ul>
+    <button onclick="vaciarCarrito()" class="btn-vaciar">🗑️ Vaciar carrito</button>
+</div>
+
+
+<nav class="menu-navegacion">
+    <a href="#catalogo">Colección</a>
+    <a href="#quienes-somos">Quiénes somos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
